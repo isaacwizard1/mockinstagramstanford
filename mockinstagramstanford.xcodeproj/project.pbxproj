@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A6E7E9229370AE9007BDADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E7E9129370AE9007BDADA /* AppDelegate.swift */; };
+		6A6E7E9429370AE9007BDADA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E7E9329370AE9007BDADA /* SceneDelegate.swift */; };
+		6A6E7E9629370AE9007BDADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E7E9529370AE9007BDADA /* ViewController.swift */; };
+		6A6E7E9929370AE9007BDADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A6E7E9729370AE9007BDADA /* Main.storyboard */; };
+		6A6E7E9B29370AF5007BDADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A6E7E9A29370AF5007BDADA /* Assets.xcassets */; };
+		6A6E7E9E29370AF5007BDADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A6E7E9C29370AF5007BDADA /* LaunchScreen.storyboard */; };
+		6A6E7EA929370AF6007BDADA /* mockinstagramstanfordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E7EA829370AF6007BDADA /* mockinstagramstanfordTests.swift */; };
+		6A6E7EB329370AF6007BDADA /* mockinstagramstanfordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E7EB229370AF6007BDADA /* mockinstagramstanfordUITests.swift */; };
+		6A6E7EB529370AF6007BDADA /* mockinstagramstanfordUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E7EB429370AF6007BDADA /* mockinstagramstanfordUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A6E7EA529370AF6007BDADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A6E7E8629370AE9007BDADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A6E7E8D29370AE9007BDADA;
+			remoteInfo = mockinstagramstanford;
+		};
+		6A6E7EAF29370AF6007BDADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A6E7E8629370AE9007BDADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A6E7E8D29370AE9007BDADA;
+			remoteInfo = mockinstagramstanford;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A6E7E8E29370AE9007BDADA /* mockinstagramstanford.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mockinstagramstanford.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A6E7E9129370AE9007BDADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A6E7E9329370AE9007BDADA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6A6E7E9529370AE9007BDADA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A6E7E9829370AE9007BDADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A6E7E9A29370AF5007BDADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A6E7E9D29370AF5007BDADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A6E7E9F29370AF5007BDADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A6E7EA429370AF6007BDADA /* mockinstagramstanfordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mockinstagramstanfordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A6E7EA829370AF6007BDADA /* mockinstagramstanfordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mockinstagramstanfordTests.swift; sourceTree = "<group>"; };
+		6A6E7EAE29370AF6007BDADA /* mockinstagramstanfordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mockinstagramstanfordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A6E7EB229370AF6007BDADA /* mockinstagramstanfordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mockinstagramstanfordUITests.swift; sourceTree = "<group>"; };
+		6A6E7EB429370AF6007BDADA /* mockinstagramstanfordUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mockinstagramstanfordUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A6E7E8B29370AE9007BDADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A6E7EA129370AF6007BDADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A6E7EAB29370AF6007BDADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A6E7E8529370AE9007BDADA = {
+			isa = PBXGroup;
+			children = (
+				6A6E7E9029370AE9007BDADA /* mockinstagramstanford */,
+				6A6E7EA729370AF6007BDADA /* mockinstagramstanfordTests */,
+				6A6E7EB129370AF6007BDADA /* mockinstagramstanfordUITests */,
+				6A6E7E8F29370AE9007BDADA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A6E7E8F29370AE9007BDADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A6E7E8E29370AE9007BDADA /* mockinstagramstanford.app */,
+				6A6E7EA429370AF6007BDADA /* mockinstagramstanfordTests.xctest */,
+				6A6E7EAE29370AF6007BDADA /* mockinstagramstanfordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A6E7E9029370AE9007BDADA /* mockinstagramstanford */ = {
+			isa = PBXGroup;
+			children = (
+				6A6E7E9129370AE9007BDADA /* AppDelegate.swift */,
+				6A6E7E9329370AE9007BDADA /* SceneDelegate.swift */,
+				6A6E7E9529370AE9007BDADA /* ViewController.swift */,
+				6A6E7E9729370AE9007BDADA /* Main.storyboard */,
+				6A6E7E9A29370AF5007BDADA /* Assets.xcassets */,
+				6A6E7E9C29370AF5007BDADA /* LaunchScreen.storyboard */,
+				6A6E7E9F29370AF5007BDADA /* Info.plist */,
+			);
+			path = mockinstagramstanford;
+			sourceTree = "<group>";
+		};
+		6A6E7EA729370AF6007BDADA /* mockinstagramstanfordTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A6E7EA829370AF6007BDADA /* mockinstagramstanfordTests.swift */,
+			);
+			path = mockinstagramstanfordTests;
+			sourceTree = "<group>";
+		};
+		6A6E7EB129370AF6007BDADA /* mockinstagramstanfordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A6E7EB229370AF6007BDADA /* mockinstagramstanfordUITests.swift */,
+				6A6E7EB429370AF6007BDADA /* mockinstagramstanfordUITestsLaunchTests.swift */,
+			);
+			path = mockinstagramstanfordUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A6E7E8D29370AE9007BDADA /* mockinstagramstanford */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A6E7EB829370AF6007BDADA /* Build configuration list for PBXNativeTarget "mockinstagramstanford" */;
+			buildPhases = (
+				6A6E7E8A29370AE9007BDADA /* Sources */,
+				6A6E7E8B29370AE9007BDADA /* Frameworks */,
+				6A6E7E8C29370AE9007BDADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mockinstagramstanford;
+			productName = mockinstagramstanford;
+			productReference = 6A6E7E8E29370AE9007BDADA /* mockinstagramstanford.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A6E7EA329370AF6007BDADA /* mockinstagramstanfordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A6E7EBB29370AF6007BDADA /* Build configuration list for PBXNativeTarget "mockinstagramstanfordTests" */;
+			buildPhases = (
+				6A6E7EA029370AF6007BDADA /* Sources */,
+				6A6E7EA129370AF6007BDADA /* Frameworks */,
+				6A6E7EA229370AF6007BDADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A6E7EA629370AF6007BDADA /* PBXTargetDependency */,
+			);
+			name = mockinstagramstanfordTests;
+			productName = mockinstagramstanfordTests;
+			productReference = 6A6E7EA429370AF6007BDADA /* mockinstagramstanfordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A6E7EAD29370AF6007BDADA /* mockinstagramstanfordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A6E7EBE29370AF6007BDADA /* Build configuration list for PBXNativeTarget "mockinstagramstanfordUITests" */;
+			buildPhases = (
+				6A6E7EAA29370AF6007BDADA /* Sources */,
+				6A6E7EAB29370AF6007BDADA /* Frameworks */,
+				6A6E7EAC29370AF6007BDADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A6E7EB029370AF6007BDADA /* PBXTargetDependency */,
+			);
+			name = mockinstagramstanfordUITests;
+			productName = mockinstagramstanfordUITests;
+			productReference = 6A6E7EAE29370AF6007BDADA /* mockinstagramstanfordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A6E7E8629370AE9007BDADA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					6A6E7E8D29370AE9007BDADA = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					6A6E7EA329370AF6007BDADA = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 6A6E7E8D29370AE9007BDADA;
+					};
+					6A6E7EAD29370AF6007BDADA = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 6A6E7E8D29370AE9007BDADA;
+					};
+				};
+			};
+			buildConfigurationList = 6A6E7E8929370AE9007BDADA /* Build configuration list for PBXProject "mockinstagramstanford" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A6E7E8529370AE9007BDADA;
+			productRefGroup = 6A6E7E8F29370AE9007BDADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A6E7E8D29370AE9007BDADA /* mockinstagramstanford */,
+				6A6E7EA329370AF6007BDADA /* mockinstagramstanfordTests */,
+				6A6E7EAD29370AF6007BDADA /* mockinstagramstanfordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A6E7E8C29370AE9007BDADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6E7E9E29370AF5007BDADA /* LaunchScreen.storyboard in Resources */,
+				6A6E7E9B29370AF5007BDADA /* Assets.xcassets in Resources */,
+				6A6E7E9929370AE9007BDADA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A6E7EA229370AF6007BDADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A6E7EAC29370AF6007BDADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A6E7E8A29370AE9007BDADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6E7E9629370AE9007BDADA /* ViewController.swift in Sources */,
+				6A6E7E9229370AE9007BDADA /* AppDelegate.swift in Sources */,
+				6A6E7E9429370AE9007BDADA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A6E7EA029370AF6007BDADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6E7EA929370AF6007BDADA /* mockinstagramstanfordTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A6E7EAA29370AF6007BDADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6E7EB529370AF6007BDADA /* mockinstagramstanfordUITestsLaunchTests.swift in Sources */,
+				6A6E7EB329370AF6007BDADA /* mockinstagramstanfordUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A6E7EA629370AF6007BDADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A6E7E8D29370AE9007BDADA /* mockinstagramstanford */;
+			targetProxy = 6A6E7EA529370AF6007BDADA /* PBXContainerItemProxy */;
+		};
+		6A6E7EB029370AF6007BDADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A6E7E8D29370AE9007BDADA /* mockinstagramstanford */;
+			targetProxy = 6A6E7EAF29370AF6007BDADA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A6E7E9729370AE9007BDADA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A6E7E9829370AE9007BDADA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A6E7E9C29370AF5007BDADA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A6E7E9D29370AF5007BDADA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A6E7EB629370AF6007BDADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A6E7EB729370AF6007BDADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A6E7EB929370AF6007BDADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mockinstagramstanford/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = socialappstanford.mockinstagramstanford;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A6E7EBA29370AF6007BDADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mockinstagramstanford/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = socialappstanford.mockinstagramstanford;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A6E7EBC29370AF6007BDADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = socialappstanford.mockinstagramstanfordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mockinstagramstanford.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mockinstagramstanford";
+			};
+			name = Debug;
+		};
+		6A6E7EBD29370AF6007BDADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = socialappstanford.mockinstagramstanfordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mockinstagramstanford.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mockinstagramstanford";
+			};
+			name = Release;
+		};
+		6A6E7EBF29370AF6007BDADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = socialappstanford.mockinstagramstanfordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mockinstagramstanford;
+			};
+			name = Debug;
+		};
+		6A6E7EC029370AF6007BDADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = socialappstanford.mockinstagramstanfordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mockinstagramstanford;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A6E7E8929370AE9007BDADA /* Build configuration list for PBXProject "mockinstagramstanford" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A6E7EB629370AF6007BDADA /* Debug */,
+				6A6E7EB729370AF6007BDADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A6E7EB829370AF6007BDADA /* Build configuration list for PBXNativeTarget "mockinstagramstanford" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A6E7EB929370AF6007BDADA /* Debug */,
+				6A6E7EBA29370AF6007BDADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A6E7EBB29370AF6007BDADA /* Build configuration list for PBXNativeTarget "mockinstagramstanfordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A6E7EBC29370AF6007BDADA /* Debug */,
+				6A6E7EBD29370AF6007BDADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A6E7EBE29370AF6007BDADA /* Build configuration list for PBXNativeTarget "mockinstagramstanfordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A6E7EBF29370AF6007BDADA /* Debug */,
+				6A6E7EC029370AF6007BDADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A6E7E8629370AE9007BDADA /* Project object */;
+}
